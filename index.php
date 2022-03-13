@@ -19,6 +19,16 @@
 
         <?php
 
+            var_dump(true || false);   echo " / ";
+            var_dump(true && true);    echo " / ";
+            var_dump(!true);  echo " / ";  // operador de negacao //
+            var_dump(true xor false);     /* Operador XOR retorna true se 
+                                         A ou B sao verdadeiros e nao AMBOS*/
+
+
+            echo("<hr>");
+
+
             $nome = "filipe";
             $idade = 30;
 
@@ -50,7 +60,7 @@
                 echo("Nao pode dirigir");
             }
 
-
+ 
 
         ?>
         
